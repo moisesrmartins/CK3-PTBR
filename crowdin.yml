@@ -1,6 +1,7 @@
 files:
-  - source: "/localization/l_english/**/*.yml"
-    translation: "/localization/l_portuguese/%original_path%/%original_file_name%"
-
-  - source: "/localization/jomini/script_system/trigger_system_l_english.yml"
-    translation: "/localization/l_portuguese/jomini/script_system/trigger_system_l_portuguese.yml"
+  - source: /localization/l_english/**/*.yml
+    translation: /localization/l_portuguese/%original_path%/%original_file_name%
+    multilingual: 1
+  - source: /localization/jomini/script_system/trigger_system_l_english.yml
+    translation: /localization/l_portuguese/jomini/script_system/trigger_system_l_portuguese.yml
+    multilingual: 1
